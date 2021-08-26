@@ -1,4 +1,4 @@
-# spring-boot-backend
+# spring-boot-many-to-many-restful-api
 | field     | type              | description                                                  | default | example      |
 | --------- | ----------------- | ------------------------------------------------------------ | ------- | ------------ |
 | tags      | String (required) | A comma separated list of tags.                              | N/A     | science,tech |
