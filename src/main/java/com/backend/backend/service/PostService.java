@@ -1,11 +1,10 @@
 package com.backend.backend.service;
 
-import com.backend.backend.dao.entities.PostEntity;
-import com.backend.backend.dao.repository.PostEntityRepository;
+import com.backend.backend.entities.PostEntity;
+import com.backend.backend.repository.PostEntityRepository;
 import com.backend.backend.dto.PostDTO;
 import com.backend.backend.dto.converter.PostEntityToDTO;
 import lombok.RequiredArgsConstructor;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 

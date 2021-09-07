@@ -1,9 +1,9 @@
 package com.backend.backend;
 
-import com.backend.backend.dao.entities.PostEntity;
-import com.backend.backend.dao.entities.TagEntity;
-import com.backend.backend.dao.repository.PostEntityRepository;
-import com.backend.backend.dao.repository.TagEntityRepository;
+import com.backend.backend.entities.PostEntity;
+import com.backend.backend.entities.TagEntity;
+import com.backend.backend.repository.PostEntityRepository;
+import com.backend.backend.repository.TagEntityRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

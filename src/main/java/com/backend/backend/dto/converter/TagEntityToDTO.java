@@ -1,6 +1,6 @@
 package com.backend.backend.dto.converter;
 
-import com.backend.backend.dao.entities.TagEntity;
+import com.backend.backend.entities.TagEntity;
 import org.springframework.stereotype.Component;
 
 @Component

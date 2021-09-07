@@ -1,6 +1,6 @@
-package com.backend.backend.dao.repository;
+package com.backend.backend.repository;
 
-import com.backend.backend.dao.entities.TagEntity;
+import com.backend.backend.entities.TagEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
-package com.backend.backend.dao.repository;
+package com.backend.backend.repository;
 
-import com.backend.backend.dao.entities.PostEntity;
+import com.backend.backend.entities.PostEntity;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

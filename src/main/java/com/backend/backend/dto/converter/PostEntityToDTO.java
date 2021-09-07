@@ -1,6 +1,6 @@
 package com.backend.backend.dto.converter;
 
-import com.backend.backend.dao.entities.PostEntity;
+import com.backend.backend.entities.PostEntity;
 import com.backend.backend.dto.PostDTO;
 import org.springframework.stereotype.Component;
 
