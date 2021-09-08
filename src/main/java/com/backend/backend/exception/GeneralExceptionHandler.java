@@ -8,12 +8,20 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+import javax.validation.ConstraintViolationException;
+
 @RestControllerAdvice
 public class GeneralExceptionHandler {
     @ResponseStatus(code= HttpStatus.BAD_REQUEST)
     @ExceptionHandler(MissingServletRequestParameterException.class)
     public ExceptionDTO missingRequestParamExceptionHandler(MissingServletRequestParameterException ex){
         return new ExceptionDTO(ex.getParameterName() + " parameter is required");
+    }
+
+    @ResponseStatus(code= HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(ConstraintViolationException.class)
+    public ExceptionDTO emptyTagsRequestParamExceptionHandler(){
+        return new ExceptionDTO("tags parameter is required");
     }
 
     @ResponseStatus(code= HttpStatus.BAD_REQUEST)
